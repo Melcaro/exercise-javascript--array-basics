@@ -32,3 +32,16 @@ const allShoes = selectedBrands.concat(anotherShoesList);
 
 console.log(allShoes);
 console.log(allShoes.length);
+
+const filteredBrands = allShoes.filter(function(brand) {
+  return brand.length < 6;
+});
+
+console.log(filteredBrands);
+allshoes.filter();
+
+const foundBrands = allShoes.find(function(brand) {
+  return brand.length < 6;
+});
+
+console.log(foundBrands);
